@@ -4,27 +4,64 @@
     <head>
     <meta charset="utf-8"> 
         <style> 
+            @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+            @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Yanone+Kaffeesatz');
             #content {
                 width: 90%;
                 max-width: 960;
                 margin: 0 auto;
+                background-color: beige;
+            }
+            .leftcol{
+                margin-left: 48%;
+                margin-bottom:;
+            }
+            .rightcol{
+                margin-right: 48%;
+                margin-bottom:;
+            }
+            
+            img{
+                margin-top: 14px;
+                margin-bottom: 14px;
             }
             {
                 background-color: rgb(57, 171, 57);
+            }
+            section{
+                padding: 20px;
+            }
+            body{
+                font-family: "Architects Daughter", Arial, sans-serif;
+                font-size: 14.5px;
+                line-height: 19px;
+                width:auto;
+                background-image: url("http://all4desktop.com/data_images/wallpapers/nature-and-landscape/596483.jpg");
             }
             nav {
                 background-color: rgb(57, 171, 57);
                 color: rgb(249, 229, 171);
             }
-            #section2 {
-                background-color: rgb(214, 71, 71);;
-            }
             h1, h2, h3 {
-                color: rgb(214, 136, 71);
+                color: rgb(210, 210, 210);
+                font-family: "Yanone Kaffeesatz", Times, serif;
+                margin-top: 14px;
+                margin-bottom: 5px;
+                font-size:27px;
+                line-height: 40px;
+            }
+            h3{
+                color: rgb(10, 10, 10)
+            }
+            #section2 {
+                background-color: rgb(214, 71, 71);
             }
             .section2 {
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                max-width: 700px;
                 color: rgb(249, 229, 171);
-;
             }
             #section3 {
                 background-color: rgb(43, 128, 128);
@@ -35,6 +72,13 @@
                 text-align: center;
                 max-width: 700px;
                 color: rgb(249, 229, 171);
+            }
+            .facebooklogo{
+                margin-left:20px;
+            }
+            .copyright{
+                margin-bottom: 200px;
+                margin-left: 10px;
             }
         </style>
     <title> Dry Oar Boating Company_Home</title>
@@ -47,9 +91,9 @@
     <nav>
         <ul>
             <li><a href="https://ebay.com" target="_blank">Home</a></li>
-            <li><a href="#" target="_blank">Rivers we Run</a></li>
+            <li><a href="https://amazon.com" target="_blank">Rivers we Run</a></li>
             <li><a href="#" target="_blank">Preparation for a Trip/FAQ</a></li>
-            <li><a href="#" target="_blank">Blog</a></li>
+            <li><a href="https://gklmbrough.blogspot.com" target="_blank">Blog</a></li>
             <li><a href="#" target="_blank">Schedules/Rates/Dates</a></li>
             <li><a href="https://byui.edu" target="_blank">Contact Us</a></li>
         </ul>
@@ -58,27 +102,33 @@
         <img src="http://brothert.net/dryoar/images/river-wide.JPG" alt="Picture of large river in scenic background of mountains, with two white-water rafts" width="940" height="250">
         
     <section id="section2">
-        <h2> Relaxing Rivers We Run </h2>
+        <div class="leftcol">
+        <h2>Relaxing Rivers We Run</h2>
         <p class="section2">We believe that there is nothing like a river trip for relaxation. That's why we subscribe to the dry oar philosophy of boating. Keeping your oars dry to us means taking time to look around and notice the beauty that surrounds the rivers we raft and love.</p>
-        <img src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="Scenic picture of river in mountains" width="420" height="315">
+            </div>
+                    <div class="rightcol">
+        <img id="image2" src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="Scenic picture of river in mountains" width="420" height="315">
+        </div>
         </section>
         
-        <br>
         
         <section id="section3">
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/93/b4/4b/whitewater-rafting-llc.jpg" alt="Group of people giong through a white-water rapid and getting soaked.">
-        <h2>Now, that's not to say we don't also like some rapids!</h2> <p class="section3">When it comes to real white water rapids, we don't even try to keep that oar dry; we get it as wet as we can.  Dry Oar believes that the tenseness that comes when you are looking down the tongue of a big string of waves is something worth living for, as well as also makes you appreciate even more the calm beautiful water that always follows even.  Opposites attract, don't they?
-        </p>
+        <div class="leftcol"><img src="https://media-cdn.tripadvisor.com/media/photo-s/03/93/b4/4b/whitewater-rafting-llc.jpg" alt="Group of people giong through a white-water rapid and getting soaked."></div>
+            <div class="rightcol2">
+        <h2>Now, that's not to say we don't also like some rapids!</h2> <div class="rightcol"><p class="section3">When it comes to real white water rapids, we don't even try to keep that oar dry; we get it as wet as we can.  Dry Oar believes that the tenseness that comes when you are looking down the tongue of a big string of waves is something worth living for, as well as also makes you appreciate even more the calm beautiful water that always follows even.  Opposites attract, don't they?</p>
+            </div>
+            </div>
         </section>
     
-        <section>
-        <h3>So, whether you are coming to rest on the serenity of clam lakes, or get restless on the rivers of white water mayhem, we encourage you to come have the "Dry Oar" experience. Please check out any and all of our guided trips and let us know which one best suits you and your crew. We're waiting to hear from you soon!</h3>
+        <section id="section3">
+            <h2>Come Join the Fun!</h2>
+        <p>Whether you are coming to rest on the serenity of clam lakes, or get restless on the rivers of white water mayhem, we encourage you to come have the "Dry Oar" experience. <br> Please check out any and all of our guided trips and let us know which one best suits you and your crew. We're waiting to hear from you soon!</p>
     </section>
     
-        <p>&copy; 2016 Dry Oar Boating Company. Cody Chandler- Chandler Enterprises. All Rights Reserved.<p>
-          <a href="https://facebook.com" target="_blank"><img src="facebook%20logo.png"></a>
+          <a class="facebooklogo" href="https://facebook.com" target="_blank"><img src="facebook%20logo.png"></a>
           <a href="https://instagram.com" target="_blank"><img src="instagram%20logo.png"></a>
           <a href="https://youtube.com" target="_blank"><img src="youtube%20logo.png"></a>
+        <p class="copyright">&copy; 2016 Dry Oar Boating Company. Cody Chandler- Chandler Enterprises. All Rights Reserved.<p>
                  
         </div>
         </div>
