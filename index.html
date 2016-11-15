@@ -11,22 +11,30 @@
                 max-width: 960;
                 margin: 0 auto;
                 background-color: beige;
+                align-items: center;
             }
             .leftcol{
                 margin-left: 48%;
                 margin-bottom:;
+                flex: 1;
+                flex: 1 0 15em;
+                margin: .5em;
             }
             .rightcol{
+                float: right;
                 margin-right: 48%;
                 margin-bottom:;
+                flex: 1;
+                flex: 1 0 15em;
+                margin: .5em;
             }
-            
             img{
                 margin-top: 14px;
                 margin-bottom: 14px;
+                /width: 100%;
             }
             {
-                background-color: rgb(57, 171, 57);
+                /background-color: rgb(57, 171, 57);
             }
             section{
                 padding: 20px;
@@ -41,6 +49,7 @@
             nav {
                 background-color: rgb(57, 171, 57);
                 color: rgb(249, 229, 171);
+                margin-bottom: -28px;
             }
             h1, h2, h3 {
                 color: rgb(210, 210, 210);
@@ -53,8 +62,11 @@
             h3{
                 color: rgb(10, 10, 10)
             }
+            #section1{
+            }
             #section2 {
                 background-color: rgb(214, 71, 71);
+                margin-top: 0%;
             }
             .section2 {
                 width: 90%;
@@ -62,9 +74,12 @@
                 text-align: center;
                 max-width: 700px;
                 color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
             }
             #section3 {
                 background-color: rgb(43, 128, 128);
+                margin-top: 0%;
             }
             .section3 {
                 width: 90%;
@@ -72,13 +87,29 @@
                 text-align: center;
                 max-width: 700px;
                 color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section4 {
+                background-color: rgb(43, 128, 128);
             }
             .facebooklogo{
-                margin-left:20px;
+                margin-left:80%;
+                margin-bottom: 5px;
             }
             .copyright{
                 margin-bottom: 200px;
                 margin-left: 10px;
+            }
+            .fullwidth {
+                width: 100%;
+                margin-bottom:;
+                /padding: 5px;
+                /border-bottom-color: rgb(57, 171, 57);
+            }
+            #section1,#section2{
+                display: flex;
+                flex-flow: row wrap;
             }
         </style>
     <title> Dry Oar Boating Company_Home</title>
@@ -87,6 +118,7 @@
     
     <body> <div id="content">
         <div class="content">
+            <section id="section1">
     <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Logo for Dry Oar Boating Co., one oar and the words 'Dry Oar'">
     <nav>
         <ul>
@@ -99,7 +131,8 @@
         </ul>
     </nav>
         
-        <img src="http://brothert.net/dryoar/images/river-wide.JPG" alt="Picture of large river in scenic background of mountains, with two white-water rafts" width="940" height="250">
+        <img class="fullwidth" src="http://brothert.net/dryoar/images/river-wide.JPG" alt="Picture of large river in scenic background of mountains, with two white-water rafts" width="940" height="250">
+            </section>
         
     <section id="section2">
         <div class="leftcol">
@@ -113,16 +146,18 @@
         
         
         <section id="section3">
-        <div class="leftcol"><img src="https://media-cdn.tripadvisor.com/media/photo-s/03/93/b4/4b/whitewater-rafting-llc.jpg" alt="Group of people giong through a white-water rapid and getting soaked."></div>
-            <div class="rightcol2">
-        <h2>Now, that's not to say we don't also like some rapids!</h2> <div class="rightcol"><p class="section3">When it comes to real white water rapids, we don't even try to keep that oar dry; we get it as wet as we can.  Dry Oar believes that the tenseness that comes when you are looking down the tongue of a big string of waves is something worth living for, as well as also makes you appreciate even more the calm beautiful water that always follows even.  Opposites attract, don't they?</p>
+        <div class="rightcol">
+        <h2>Now, that's not to say we don't also like some rapids!</h2> 
+        <p class="section3">When it comes to real white water rapids, we don't even try to keep that oar dry; we get it as wet as we can.  Dry Oar believes that the tenseness that comes when you are looking down the tongue of a big string of waves is something worth living for, as well as also makes you appreciate even more the calm beautiful water that always follows even.  Opposites attract, don't they?</p>
             </div>
+                <div class="leftcol">
+        <img id="image3" src="https://media-cdn.tripadvisor.com/media/photo-s/03/93/b4/4b/whitewater-rafting-llc.jpg" alt="Group of people giong through a white-water rapid and getting soaked." width="420" height="315">
             </div>
         </section>
     
-        <section id="section3">
+        <section id="section4">
             <h2>Come Join the Fun!</h2>
-        <p>Whether you are coming to rest on the serenity of clam lakes, or get restless on the rivers of white water mayhem, we encourage you to come have the "Dry Oar" experience. <br> Please check out any and all of our guided trips and let us know which one best suits you and your crew. We're waiting to hear from you soon!</p>
+        <p>Whether you are coming to rest on the serenity of calm lakes, or get restless on the rivers of white water mayhem, we encourage you to come have the "Dry Oar" experience. <br> Please check out any and all of our guided trips and let us know which one best suits you and your crew. We're waiting to hear from you soon!</p>
     </section>
     
           <a class="facebooklogo" href="https://facebook.com" target="_blank"><img src="facebook%20logo.png"></a>
