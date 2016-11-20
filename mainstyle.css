@@ -1,0 +1,133 @@
+ @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+            @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Yanone+Kaffeesatz');
+*{ box-sizing:border-box;
+}
+
+#content {
+                width: 90%;
+                max-width: 960px;
+                margin: 0 auto;
+                background-color: beige;
+                align-items: center;
+            }
+            .leftcol{
+                margin-left: 48%;
+                margin-bottom:;
+                flex: 1;
+                flex: 1 0 15em;
+                margin: .5em;
+            }
+            .rightcol{
+                float: right;
+                margin-right: 48%;
+                margin-bottom:;
+                flex: 1;
+                flex: 1 0 15em;
+                margin: .5em;
+            }
+            img{
+                max-width: 100%;
+            }
+            section{
+                padding: 20px;
+            }
+            body{
+                font-family: "Architects Daughter", Arial, sans-serif;
+                font-size: 14.5px;
+                line-height: 19px;
+                width:auto;
+                background-image: url("http://all4desktop.com/data_images/wallpapers/nature-and-landscape/596483.jpg");
+            }
+            .logo{
+                background color:floralwhite;
+                position: relative;
+            }
+            nav{
+                background-color: rgb(57, 171, 57);
+                color: rgb(249, 229, 171);
+                /margin-bottom: -28px;
+                font-size: 1.1em;
+                line-height: 2em;
+                width: 100%;
+                margin-top: -5em;
+            }
+            nav > ul{
+                list-style-type: none;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: space-around;
+             
+            }
+            nav li{
+                flex: 1 1 7em;
+            }
+            nav a:link, nav a: visited{
+                color: #E7C24F;
+                text-decoration: none;
+            }
+            nav a:hover{
+                text-decoration: underline;
+                color: aliceblue;
+            }
+            h1, h2, h3 {
+                color: rgb(210, 210, 210);
+                font-family: "Yanone Kaffeesatz", Times, serif;
+                margin-top: 14px;
+                margin-bottom: 5px;
+                font-size:27px;
+                line-height: 40px;
+            }
+            h3{
+                color: rgb(10, 10, 10)
+            }
+            
+            #section2 {
+                background-color: rgb(214, 71, 71);
+                margin-top: 0%;
+            }
+            .section2 {
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                max-width: 700px;
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section3 {
+                background-color: rgb(43, 128, 128);
+                margin-top: 0%;
+            }
+            .section3 {
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                max-width: 700px;
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section4 {
+                background-color: rgb(43, 128, 128);
+            }
+            .facebooklogo{
+                margin-left:75%;
+                margin-bottom:5px;
+            }
+            .copyright{
+                margin-bottom: 200px;
+                margin-left: 10px;
+            }
+            .fullwidth {
+                width: 100%;
+                margin-bottom:;
+                /padding: 5px;
+                /border-bottom-color: rgb(57, 171, 57);
+            }
+            #section2{
+                display: flex;
+                flex-flow: row wrap;
+            }
+            #image2{
+                float: right;
+            }
