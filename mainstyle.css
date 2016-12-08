@@ -1,9 +1,9 @@
- @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
-            @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Yanone+Kaffeesatz');
 *{ box-sizing:border-box;
 }
 
-#content {
+            #content {
                 width: 90%;
                 max-width: 960px;
                 margin: 0 auto;
@@ -11,15 +11,14 @@
                 align-items: center;
             }
             .leftcol{
-                margin-left: 48%;
+                width: 48%;
                 margin-bottom:;
                 flex: 1;
                 flex: 1 0 15em;
                 margin: .5em;
             }
             .rightcol{
-                float: right;
-                margin-right: 48%;
+                width: 48%;
                 margin-bottom:;
                 flex: 1;
                 flex: 1 0 15em;
@@ -45,11 +44,14 @@
             nav{
                 background-color: rgb(57, 171, 57);
                 color: rgb(249, 229, 171);
-                /margin-bottom: -28px;
+/*                /margin-bottom: -28px;*/
                 font-size: 1.1em;
                 line-height: 2em;
-                width: 100%;
+                width: 85%;
                 margin-top: -5em;
+                margin-left:9em;
+                position:inherit;
+                
             }
             nav > ul{
                 list-style-type: none;
@@ -80,16 +82,54 @@
             h3{
                 color: rgb(10, 10, 10)
             }
-            
+            h4{
+                color: rgb (40, 50, 59);
+                font-family: "Yanone Kaffeesatz", Times, serif;
+                margin-top: 14px;
+                margin-bottom: 5px;
+                font-size:50px;
+                line-height: 40px;
+            }
+            #indexhead{
+                background-color: rgb(57, 171, 57);
+                color: rgb(240, 240, 240);
+                text-align: center;
+            }
+            .indexhead{ 
+                color: rgb(249, 229, 171);
+                line-height: 40px;
+                font-size:20px;               
+            }
+            #riverhead{
+                background-color: rgb(57, 171, 57);
+                color: rgb(240, 240, 240);
+            }
+            .riverhead{ 
+                color: rgb(249, 229, 171);
+                line-height: 15px;
+                font-size:20px;
+                margin-left: 40px;
+               
+            }
+            .riverhead2 {
+                color: rgb(249, 229, 171);
+                font-size:20px;
+                margin-left: 563px;
+            }
+            .rivertitle{
+                text-align: center;
+            }
             #section2 {
                 background-color: rgb(214, 71, 71);
-                margin-top: 0%;
+/*                margin-top: 0%;*/
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
             }
             .section2 {
-                width: 90%;
+                
                 margin: auto;
                 text-align: center;
-                max-width: 700px;
                 color: rgb(249, 229, 171);
                 margin-top: 0%;
                 padding-top: 0%;
@@ -97,18 +137,43 @@
             #section3 {
                 background-color: rgb(43, 128, 128);
                 margin-top: 0%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
             }
             .section3 {
-                width: 90%;
+                
                 margin: auto;
                 text-align: center;
-                max-width: 700px;
                 color: rgb(249, 229, 171);
                 margin-top: 0%;
                 padding-top: 0%;
             }
             #section4 {
+                background-color: rgb(57, 171, 57);
+                color: rgb(249, 229, 171);
+            }
+            #riversection4 {
+                background-color: rgb(57, 171, 57);
+                color: rgb(249, 229, 171);
+            }
+            #section5 {
+                background-color: rgb(214, 136, 71); 
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+            }
+            #section6 {
                 background-color: rgb(43, 128, 128);
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+            }
+            #section7{ 
+                background-color: rgb(214, 71, 71);
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
             }
             .facebooklogo{
                 margin-left:75%;
@@ -120,14 +185,9 @@
             }
             .fullwidth {
                 width: 100%;
-                margin-bottom:;
-                /padding: 5px;
-                /border-bottom-color: rgb(57, 171, 57);
-            }
-            #section2{
-                display: flex;
-                flex-flow: row wrap;
+/*                /padding: 5px;*/
+/*                /border-bottom-color: rgb(57, 171, 57);*/
             }
             #image2{
-                float: right;
+/*                float: right;*/
             }
