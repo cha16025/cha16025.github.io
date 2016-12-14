@@ -44,7 +44,6 @@
             nav{
                 background-color: rgb(57, 171, 57);
                 color: rgb(249, 229, 171);
-/*                /margin-bottom: -28px;*/
                 font-size: 1.1em;
                 line-height: 2em;
                 width: 85%;
@@ -80,7 +79,7 @@
                 line-height: 40px;
             }
             h3{
-                color: rgb(10, 10, 10)
+                color: rgb(10, 10, 10);
             }
             h4{
                 color: rgb (40, 50, 59);
@@ -109,7 +108,6 @@
                 line-height: 15px;
                 font-size:20px;
                 margin-left: 40px;
-               
             }
             .riverhead2 {
                 color: rgb(249, 229, 171);
@@ -117,6 +115,24 @@
                 margin-left: 563px;
             }
             .rivertitle{
+                text-align: center;
+            }
+             #faqhead{
+                background-color: rgb(57, 171, 57);
+                color: rgb(240, 240, 240);
+            }
+            .faqhead{ 
+                color: rgb(249, 229, 171);
+                line-height: 15px;
+                font-size:20px;
+                margin-left: 50px;  
+            }
+            .faqhead2 {
+                color: rgb(249, 229, 171);
+                font-size:20px;
+                margin-left: px;
+            }
+            .faqtitle{
                 text-align: center;
             }
             #section2 {
@@ -127,7 +143,6 @@
                 align-items: center;
             }
             .section2 {
-                
                 margin: auto;
                 text-align: center;
                 color: rgb(249, 229, 171);
@@ -142,7 +157,6 @@
                 align-items: center;
             }
             .section3 {
-                
                 margin: auto;
                 text-align: center;
                 color: rgb(249, 229, 171);
@@ -156,6 +170,13 @@
             #riversection4 {
                 background-color: rgb(57, 171, 57);
                 color: rgb(249, 229, 171);
+            }
+            #faqsection4 {
+                background-color: rgb(57, 171, 57);
+                color: rgb(249, 229, 171);
+            }
+            .faqsection4{
+                margin-left: 42%;
             }
             #section5 {
                 background-color: rgb(214, 136, 71); 
@@ -175,6 +196,92 @@
                 flex-flow: row wrap;
                 align-items: center;
             }
+            #section8{
+                background-color: rgb(43, 128, 128);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section8{
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section9{
+                background-color: rgb(214, 71, 71);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section9{
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section10{
+                background-color: rgb(214, 136, 71);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section10{
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section11{
+                background-color: rgb(57, 171, 57);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section11{
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            #section12{
+                background-color: rgb(214, 136, 71);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section12{
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+             #section13{
+                background-color: rgb(214, 71, 71);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section13{
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+             #section14{
+                background-color: rgb(43, 128, 128);
+/*                display: flex;*/
+/*                flex-flow: row wrap;*/
+/*                align-items: center;*/
+            }
+            .section14{
+                text-align: center;
+                color: rgb(249, 229, 171);
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+            .emaillink{
+                color:deepskyblue;
+            }
+            #image8, #image9, #image10, #image11, #image12, #image13{
+                width: 200px;
+                float:left;
+                margin: 1em;
+            }
             .facebooklogo{
                 margin-left:75%;
                 margin-bottom:5px;
@@ -185,9 +292,9 @@
             }
             .fullwidth {
                 width: 100%;
-/*                /padding: 5px;*/
-/*                /border-bottom-color: rgb(57, 171, 57);*/
             }
-            #image2{
-/*                float: right;*/
-            }
+
+/*In case of future need*/
+/*                margin-left: 450px;*/
+/*                margin: auto;*/
+/*                text-align: right;*/
